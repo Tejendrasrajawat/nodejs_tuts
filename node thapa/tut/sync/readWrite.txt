@@ -1,0 +1,2 @@
+create a new file with this text!, also overwrite existing file 
+create file , if already exist then append data not overwrite !

@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+ .frame {
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 width: 400px;
+	 height: 400px;
+	 margin-top: -200px;
+	 margin-left: -200px;
+	 border-radius: 3px;
+	 box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	 overflow: hidden;
+	 background: #1a2238;
+	 color: #333;
+	 font-family: 'Open Sans', Helvetica, sans-serif;
+	 -webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+}
+ .center {
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+}
+ .center .moon {
+	 position: relative;
+	 top: -8em;
+	 left: -8em;
+	 height: 5em;
+	 width: 5em;
+	 border-radius: 50%;
+	 background: #f6edbd;
+	 box-shadow: 0px 0px 12px 0px #f6edbd;
+}
+ .center .moon .spots {
+	 position: absolute;
+	 border-radius: 50%;
+	 background: #ece1a8;
+}
+ .center .moon .spot-1 {
+	 top: 1.5em;
+	 left: 0.5em;
+	 height: 17px;
+	 width: 17px;
+}
+ .center .moon .spot-2 {
+	 top: 3.5em;
+	 left: 1.3em;
+	 height: 10px;
+	 width: 10px;
+}
+ .center .moon .spot-3 {
+	 top: 2em;
+	 left: 3.7em;
+	 height: 7px;
+	 width: 7px;
+}
+ .center .moon .spot-4 {
+	 top: 1em;
+	 left: 2.2em;
+	 height: 8px;
+	 width: 8px;
+}
+ .center .moon .spot-5 {
+	 top: 1.7em;
+	 left: 2.6em;
+	 height: 8px;
+	 width: 8px;
+}
+ .center .moon .spot-6 {
+	 top: 3.2em;
+	 left: 3.5em;
+	 height: 11px;
+	 width: 11px;
+}
+ .center .moon .spot-7 {
+	 top: 4em;
+	 left: 2.5em;
+	 height: 7px;
+	 width: 7px;
+}
+ .center .moon .spot-8 {
+	 top: 2.5em;
+	 left: 2.6em;
+	 height: 12px;
+	 width: 12px;
+}
+ .center .moon .spot-9 {
+	 top: 3.2em;
+	 left: 2em;
+	 height: 5px;
+	 width: 5px;
+}
+ .center .moon .spot-10 {
+	 top: 0.8em;
+	 left: 3.8em;
+	 height: 8px;
+	 width: 8px;
+}
+ .center .clouds {
+	 position: absolute;
+}
+ .center .clouds .cloud-1 {
+	 position: absolute;
+	 left: -17em;
+	 height: 18em;
+	 width: 20em;
+	 border-radius: 50%;
+	 background: #303c5d;
+	 z-index: 2;
+}
+ .center .clouds .cloud-2 {
+	 position: absolute;
+	 top: -2em;
+	 left: -8em;
+	 height: 22em;
+	 width: 24em;
+	 border-radius: 50%;
+	 background: #303c5d;
+	 z-index: 3;
+}
+ .center .clouds .cloud-3 {
+	 position: absolute;
+	 top: 0em;
+	 left: 6em;
+	 height: 18em;
+	 width: 20em;
+	 border-radius: 50%;
+	 background: #303c5d;
+	 z-index: 2;
+}
+ .center .clouds .cloud-4 {
+	 position: absolute;
+	 top: -4em;
+	 left: -16em;
+	 height: 22em;
+	 width: 24em;
+	 border-radius: 50%;
+	 background: #394568;
+	 z-index: 1;
+}
+ .center .clouds .cloud-5 {
+	 position: absolute;
+	 top: -6em;
+	 left: -4em;
+	 height: 22em;
+	 width: 24em;
+	 border-radius: 50%;
+	 background: #394568;
+	 z-index: 1;
+}
+ .center .weather {
+	 position: absolute;
+	 top: 9.2em;
+	 left: -10em;
+	 height: 6em;
+	 width: 26em;
+	 background: #fff;
+	 margin-left: -0.5em;
+	 color: #1a2238;
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-around;
+	 z-index: 5;
+}
+ .center .weather .temp {
+	 font-size: 3em;
+}
+ .center .weather .metrics {
+	 display: flex;
+	 flex-direction: column;
+}
+ .center .weather .metrics span {
+	 margin: 0.2em 0;
+}
+ .center .weather .week-preview {
+	 border-spacing: 0.2em 0.2em;
+}
+ .center .weather .week-preview tr {
+	 text-align: right;
+}
+ 

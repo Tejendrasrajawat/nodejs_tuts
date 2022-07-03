@@ -1,0 +1,6 @@
+demo file
+we need to read this file
+line
+by
+ line
+ using straming 
